@@ -1,1 +1,3 @@
 # kotlin
+
+> brew install kotlin
