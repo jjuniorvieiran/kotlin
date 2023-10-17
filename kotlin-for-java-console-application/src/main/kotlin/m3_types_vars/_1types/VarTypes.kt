@@ -40,8 +40,8 @@ fun main() {
     val r = sum(i.toDouble(), i.toDouble()) // explicit conversion. java does this implicitly
 
     val name = "John"
-    val greeting = "Hello $name";
-    val temp = "In two years I will be ${35 + 2}"
+    val greeting = "Hello $name"; // string interpolation
+    val temp = "In two years I will be ${35 + 2}" // expression in {}
     println(greeting)
     println(temp)
 
