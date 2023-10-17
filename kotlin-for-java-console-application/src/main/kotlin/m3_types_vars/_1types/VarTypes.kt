@@ -31,13 +31,13 @@ fun main() {
 
 
     val validConcat = "a" + 1
-//    val invalidConcat = 1 + "a"
+//    val invalidConcat = 1 + "a" it doesn't compile. no implicit conversion
 
     val i = 1
     val d = 2.0
     val result = i.plus(d)
 
-    val r = sum(i.toDouble(), i.toDouble())
+    val r = sum(i.toDouble(), i.toDouble()) // explicit conversion. java does this implicitly
 
     val name = "John"
     val greeting = "Hello $name";
