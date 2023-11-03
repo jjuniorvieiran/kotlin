@@ -16,7 +16,7 @@ abstract class AbstractTranslationService(private val apiKey: String) : Translat
 }
 
 
-class GoogleTranslationService(apiKey: String) : AbstractTranslationService(apiKey) {
+class GoogleTranslationService(apiKey: String) : AbstractTranslationService(apiKey) { // by defaul class is final and public
     override fun translate(sourceLanguage: String, targetLanguage: String, input: String): String {
         // Use Google Cloud Translation API
         // https://cloud.google.com/translate
